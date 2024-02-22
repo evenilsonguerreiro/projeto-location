@@ -10,7 +10,7 @@ function verificar(){
     let h1 = String(tx1.value)
     let h2 = String(tx2.value)
     
-    let proficao = tx1.value;
+    let endereço = tx1.value;
     let nome = tx2.value;
 
 
@@ -22,7 +22,7 @@ function verificar(){
         return
     }
 
-    switch(proficao){
+    switch(endereço){
         case 'rua adalberto malveira' :
             res2.innerHTML = `OLÁ ${nome}! SUA UNIDADE É :   `
             res.innerHTML = 'POST0 DE SAÚDE : ALARICO LEITE . horario de 08h ás 17hs'
