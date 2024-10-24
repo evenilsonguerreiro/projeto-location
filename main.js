@@ -5,6 +5,7 @@ const res2 = document.querySelector('#res2')
 
 
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function verificar(){
 
     let h1 = String(tx1.value)
