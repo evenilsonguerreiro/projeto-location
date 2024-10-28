@@ -36,5 +36,12 @@ body{
     }
     header img{
         width: 180px;
+        margin-left: 15%;
+        
     }
+    .btn {
+        width: 100%;
+    }
+    
+    
 }
